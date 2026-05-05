@@ -23,7 +23,7 @@ RUN chown -R appuser:appgroup /usr/src/app
 USER appuser
 
 # Expose the port the app runs on
-EXPOSE 3000
+EXPOSE 22
 
 # Add health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
